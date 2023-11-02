@@ -20,7 +20,8 @@ font-family: 'Rubik', sans-serif;
 font-family: 'Unbounded', sans-serif;*/
 
 #map {
-  height: 400px;
+  height: 350px;
+  width: 100vw;
 }
 
 .buscador{
