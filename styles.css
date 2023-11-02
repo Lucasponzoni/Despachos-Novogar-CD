@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: 'Unbounded', sans-serif; 
 }
 
 @font-face {
@@ -13,6 +14,10 @@
   font-family: sf_pro_light;
   src: url(./elements/sf_pro_light.OTF);
 }
+
+/*font-family: 'Poppins', sans-serif;
+font-family: 'Rubik', sans-serif;
+font-family: 'Unbounded', sans-serif;*/
 
 #map {
   height: 400px;
@@ -141,7 +146,6 @@ footer > a{
   text-decoration: none;
   color: grey;
   transition: .5s;
-  font-family: 'Unbounded', sans-serif;
 }
 
 footer > a:hover{
@@ -154,7 +158,6 @@ footer > a:hover{
 }
 
 #addressList{
-  font-family: "sf_pro_light";
   padding: 2rem;
   border-radius: 20px;
   border: solid 2px red;
@@ -173,3 +176,4 @@ footer > a:hover{
 #spinner{
   margin: 1rem;
 }
+
